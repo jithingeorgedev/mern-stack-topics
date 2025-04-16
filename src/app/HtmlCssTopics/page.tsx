@@ -1,6 +1,6 @@
 
 'use client'
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const HtmlCssTopics = () => {
   const topics = [
@@ -45,8 +45,6 @@ const HtmlCssTopics = () => {
   ];
 
   const [search, setSearch] = useState("");
-  const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
-  const [explanationData, setExplanationData] = useState<string | null>(null);
 
   const filteredTopics = topics.filter(t =>
     t.topic.toLowerCase().includes(search.toLowerCase())

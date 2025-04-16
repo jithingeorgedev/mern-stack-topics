@@ -25,11 +25,7 @@ export default function Home() {
     }
   };
 
-  const ad = {
-    image: '/ads/mern-course-banner.png',
-    link: 'https://your-course-site.com/mern',
-    alt: 'MERN Stack Course 50% Off',
-  };
+
 
   useEffect(() => {
     try {
