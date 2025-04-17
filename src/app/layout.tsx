@@ -25,17 +25,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* Google AdSense Script */}
-      <Script
-        async
-        strategy="afterInteractive"
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1430580431653083"
-        crossOrigin="anonymous"
-      />
+
 
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* Google AdSense Script */}
+        <Script
+          async
+          strategy="afterInteractive"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1430580431653083"
+          crossOrigin="anonymous"
+        />
         {children}
       </body>
     </html>
