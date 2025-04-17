@@ -8,7 +8,8 @@ export default function Navbar() {
   return (
     <nav className="w-full bg-black text-white shadow-md fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-        <div className="text-2xl font-bold">MERN Stack Library</div>
+        <img style={{height:'50px'}} src="/favicon.png" alt="" />
+
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
