@@ -12,7 +12,7 @@ declare global {
 }
 export default function Home() {
 
-  
+
   const [currentCategory, setCurrentCategory] = useState('html-css');
 
   const getTopicsComponent = () => {
@@ -36,7 +36,7 @@ export default function Home() {
       console.error('AdSense error:', e);
     }
   }, []);
-  
+
 
   return (
     <>
@@ -57,15 +57,12 @@ export default function Home() {
 
             {/* Ad Section */}
             <aside className="w-full lg:w-80 bg-gray-900 text-gray-200 p-6 rounded-lg">
-              <ins
-                className="adsbygoogle"
+              <ins className="adsbygoogle"
                 style={{ display: 'block' }}
-                data-ad-client="ca-pub-3940256099942544"  // TEST client
-                data-ad-slot="6300978111"                 // TEST ad slot
+                data-ad-client="ca-pub-1430580431653083"
+                data-ad-slot="5408500079"
                 data-ad-format="auto"
-                data-full-width-responsive="true"
-              />
-
+                data-full-width-responsive="true"></ins>
             </aside>
 
 
